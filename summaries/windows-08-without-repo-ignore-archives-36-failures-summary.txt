@@ -1,0 +1,38 @@
+     Summary [1498.994s] 2548 tests run: 2512 passed (43 slow, 235 leaky), 36 failed, 11 skipped
+        FAIL [   4.548s] gix-attributes::attributes search::baseline
+        FAIL [   5.156s] gix-discover::discover upwards::ceiling_dirs::ceiling_dirs_are_not_processed_differently_than_the_git_dir_candidate
+        FAIL [   0.029s] gix-discover::discover upwards::from_dir_with_dot_dot
+        FAIL [   9.174s] gix-glob::glob pattern::matching::compare_baseline_with_ours
+        FAIL [   2.784s] gix-ignore::ignore search::baseline_from_git_dir
+        FAIL [   6.311s] gix-pathspec::pathspec parse::baseline
+        FAIL [   0.173s] gix-pathspec::pathspec parse::valid::glob_negations_are_always_literal
+        FAIL [   0.146s] gix-pathspec::pathspec parse::valid::whitespace_in_pathspec
+        FAIL [   5.033s] gix-pathspec::pathspec search::files
+        FAIL [   9.622s] gix-pathspec::pathspec search::prefixes_are_always_case_sensitive
+        FAIL [ 360.771s] gix-ref-tests::refs packed::iter::performance
+        FAIL [  26.268s] gix-submodule::submodule file::baseline::common_values_and_names_by_path
+        FAIL [  88.071s] gix-submodule::submodule file::is_active_platform::pathspecs_matter_even_if_they_do_not_match
+        FAIL [ 126.490s] gix-submodule::submodule file::is_active_platform::submodules_with_active_config_are_considered_active_or_inactive
+        FAIL [ 105.629s] gix-submodule::submodule file::is_active_platform::submodules_with_active_config_override_pathspecs
+        FAIL [  64.705s] gix-submodule::submodule file::is_active_platform::without_any_additional_settings_all_are_inactive_if_they_have_a_url
+        FAIL [  43.099s] gix-submodule::submodule file::is_active_platform::without_submodule_in_index
+        FAIL [   1.017s] gix-url::baseline run
+        FAIL [   0.581s] gix-worktree-state-tests::worktree state::checkout::accidental_writes_through_symlinks_are_prevented_if_overwriting_is_forbidden
+        FAIL [   0.545s] gix-worktree-state-tests::worktree state::checkout::allow_or_disallow_symlinks
+ FAIL + LEAK [   0.544s] gix-worktree-state-tests::worktree state::checkout::collisions_are_detected_on_a_case_insensitive_filesystem_even_with_delayed_filters
+        FAIL [   0.494s] gix-worktree-state-tests::worktree state::checkout::dangling_symlinks_can_be_created
+ FAIL + LEAK [   0.441s] gix-worktree-state-tests::worktree state::checkout::delayed_driver_process
+        FAIL [   0.380s] gix-worktree-state-tests::worktree state::checkout::keep_going_collects_results
+ FAIL + LEAK [   0.372s] gix-worktree-state-tests::worktree state::checkout::no_case_related_collisions_on_case_sensitive_filesystem
+        FAIL [   0.664s] gix-worktree-state-tests::worktree state::checkout::safety_checks_dotdot_trees
+        FAIL [   0.501s] gix-worktree-state-tests::worktree state::checkout::safety_checks_dotgit_ntfs_stream
+        FAIL [   0.439s] gix-worktree-state-tests::worktree state::checkout::safety_checks_dotgit_trees
+        FAIL [   0.467s] gix-worktree-state-tests::worktree state::checkout::submodules_are_instantiated_as_directories
+        FAIL [   0.400s] gix-worktree-state-tests::worktree state::checkout::symlinks_become_files_if_disabled
+        FAIL [   0.338s] gix-worktree-state-tests::worktree state::checkout::symlinks_to_directories_are_usable
+        FAIL [   0.270s] gix-worktree-state-tests::worktree state::checkout::writes_through_symlinks_are_prevented_even_if_overwriting_is_allowed
+        FAIL [   0.376s] gix-worktree-tests::integrate worktree::stack::attributes::baseline
+        FAIL [   5.759s] gix-worktree-tests::integrate worktree::stack::ignore::check_against_baseline
+        FAIL [   0.618s] gix::gix revision::spec::from_bytes::regex::find_youngest_matching_commit::regex_matches
+        FAIL [   0.574s] gix::gix revision::spec::from_bytes::regex::with_known_revision::contained_string_matches_in_unanchored_regex_and_disambiguates_automatically
+error: test run failed

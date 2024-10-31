@@ -1,0 +1,1 @@
+     Summary [ 852.306s] 2548 tests run: 2548 passed (15 slow, 1 leaky), 11 skipped

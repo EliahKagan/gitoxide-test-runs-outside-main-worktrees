@@ -1,0 +1,9 @@
+     Summary [ 930.376s] 2548 tests run: 2541 passed (30 slow, 2 leaky), 7 failed, 11 skipped
+        FAIL [   3.502s] gix-attributes::attributes search::baseline
+        FAIL [   2.114s] gix-ignore::ignore search::baseline_from_git_dir
+        FAIL [   3.009s] gix-worktree-state-tests::worktree state::checkout::accidental_writes_through_symlinks_are_prevented_if_overwriting_is_forbidden
+        FAIL [   3.006s] gix-worktree-state-tests::worktree state::checkout::no_case_related_collisions_on_case_sensitive_filesystem
+        FAIL [   0.717s] gix-worktree-state-tests::worktree state::checkout::writes_through_symlinks_are_prevented_even_if_overwriting_is_allowed
+        FAIL [   5.363s] gix-worktree-tests::integrate worktree::stack::attributes::baseline
+        FAIL [   1.372s] gix-worktree-tests::integrate worktree::stack::ignore::check_against_baseline
+error: test run failed

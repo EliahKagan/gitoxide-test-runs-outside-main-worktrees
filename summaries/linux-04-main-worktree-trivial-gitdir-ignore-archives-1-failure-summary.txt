@@ -1,0 +1,3 @@
+     Summary [  53.543s] 2561 tests run: 2560 passed (1 leaky), 1 failed, 3 skipped
+        FAIL [   0.395s] gix::gix revision::spec::from_bytes::regex::find_youngest_matching_commit::regex_matches
+error: test run failed

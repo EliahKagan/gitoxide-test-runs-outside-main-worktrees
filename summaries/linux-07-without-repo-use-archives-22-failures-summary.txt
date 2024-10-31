@@ -1,0 +1,24 @@
+     Summary [  31.763s] 2561 tests run: 2539 passed (1 leaky), 22 failed, 3 skipped
+        FAIL [   0.218s] gix-discover::discover upwards::ceiling_dirs::ceiling_dirs_are_not_processed_differently_than_the_git_dir_candidate
+        FAIL [   0.003s] gix-discover::discover upwards::from_dir_with_dot_dot
+        FAIL [   0.182s] gix-url::baseline run
+        FAIL [   0.826s] gix-worktree-state-tests::worktree state::checkout::accidental_writes_through_symlinks_are_prevented_if_overwriting_is_forbidden
+        FAIL [   0.813s] gix-worktree-state-tests::worktree state::checkout::allow_or_disallow_symlinks
+        FAIL [   0.825s] gix-worktree-state-tests::worktree state::checkout::collisions_are_detected_on_a_case_insensitive_filesystem_even_with_delayed_filters
+        FAIL [   0.830s] gix-worktree-state-tests::worktree state::checkout::dangling_symlinks_can_be_created
+        FAIL [   0.160s] gix-worktree-state-tests::worktree state::checkout::delayed_driver_process
+        FAIL [   0.120s] gix-worktree-state-tests::worktree state::checkout::keep_going_collects_results
+        FAIL [   0.207s] gix-worktree-state-tests::worktree state::checkout::no_case_related_collisions_on_case_sensitive_filesystem
+        FAIL [   0.185s] gix-worktree-state-tests::worktree state::checkout::overwriting_files_and_lone_directories_works
+        FAIL [   0.173s] gix-worktree-state-tests::worktree state::checkout::safety_checks_dotdot_trees
+        FAIL [   0.173s] gix-worktree-state-tests::worktree state::checkout::safety_checks_dotgit_ntfs_stream
+        FAIL [   0.133s] gix-worktree-state-tests::worktree state::checkout::safety_checks_dotgit_trees
+        FAIL [   0.150s] gix-worktree-state-tests::worktree state::checkout::submodules_are_instantiated_as_directories
+        FAIL [   0.227s] gix-worktree-state-tests::worktree state::checkout::symlinks_become_files_if_disabled
+        FAIL [   0.142s] gix-worktree-state-tests::worktree state::checkout::symlinks_to_directories_are_usable
+        FAIL [   0.176s] gix-worktree-state-tests::worktree state::checkout::writes_through_symlinks_are_prevented_even_if_overwriting_is_allowed
+        FAIL [   0.010s] gix-worktree-tests::integrate worktree::stack::attributes::baseline
+        FAIL [   0.066s] gix-worktree-tests::integrate worktree::stack::ignore::check_against_baseline
+        FAIL [   0.414s] gix::gix remote::fetch::blocking_and_async_io::fetch_empty_pack
+        FAIL [   0.189s] gix::gix remote::fetch::blocking_and_async_io::fetch_shallow_deepen_not_possible
+error: test run failed

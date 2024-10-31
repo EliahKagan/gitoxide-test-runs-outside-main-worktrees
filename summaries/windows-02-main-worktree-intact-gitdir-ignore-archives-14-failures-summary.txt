@@ -1,0 +1,16 @@
+     Summary [ 932.395s] 2548 tests run: 2534 passed (23 slow, 1 leaky), 14 failed, 11 skipped
+        FAIL [   7.705s] gix-glob::glob pattern::matching::compare_baseline_with_ours
+        FAIL [   3.830s] gix-pathspec::pathspec parse::baseline
+        FAIL [   0.111s] gix-pathspec::pathspec parse::valid::glob_negations_are_always_literal
+        FAIL [   0.108s] gix-pathspec::pathspec parse::valid::whitespace_in_pathspec
+        FAIL [   2.086s] gix-pathspec::pathspec search::files
+        FAIL [   6.755s] gix-pathspec::pathspec search::prefixes_are_always_case_sensitive
+        FAIL [   6.214s] gix-submodule::submodule file::baseline::common_values_and_names_by_path
+        FAIL [  25.842s] gix-submodule::submodule file::is_active_platform::pathspecs_matter_even_if_they_do_not_match
+        FAIL [  11.682s] gix-submodule::submodule file::is_active_platform::submodules_with_active_config_are_considered_active_or_inactive
+        FAIL [  36.682s] gix-submodule::submodule file::is_active_platform::submodules_with_active_config_override_pathspecs
+        FAIL [  43.569s] gix-submodule::submodule file::is_active_platform::without_any_additional_settings_all_are_inactive_if_they_have_a_url
+        FAIL [  11.931s] gix-submodule::submodule file::is_active_platform::without_submodule_in_index
+        FAIL [   0.565s] gix::gix revision::spec::from_bytes::regex::find_youngest_matching_commit::regex_matches
+        FAIL [   0.516s] gix::gix revision::spec::from_bytes::regex::with_known_revision::contained_string_matches_in_unanchored_regex_and_disambiguates_automatically
+error: test run failed

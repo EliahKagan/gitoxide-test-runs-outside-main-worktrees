@@ -1,0 +1,24 @@
+     Summary [1241.045s] 2548 tests run: 2526 passed (46 slow, 222 leaky), 22 failed, 11 skipped
+        FAIL [   5.846s] gix-attributes::attributes search::baseline
+        FAIL [   8.895s] gix-glob::glob pattern::matching::compare_baseline_with_ours
+        FAIL [   2.115s] gix-ignore::ignore search::baseline_from_git_dir
+        FAIL [   6.727s] gix-pathspec::pathspec parse::baseline
+        FAIL [   0.130s] gix-pathspec::pathspec parse::valid::glob_negations_are_always_literal
+        FAIL [   0.134s] gix-pathspec::pathspec parse::valid::whitespace_in_pathspec
+        FAIL [   3.474s] gix-pathspec::pathspec search::files
+        FAIL [   5.981s] gix-pathspec::pathspec search::prefixes_are_always_case_sensitive
+        FAIL [ 361.043s] gix-ref-tests::refs packed::iter::performance
+        FAIL [  23.763s] gix-submodule::submodule file::baseline::common_values_and_names_by_path
+        FAIL [  43.844s] gix-submodule::submodule file::is_active_platform::pathspecs_matter_even_if_they_do_not_match
+        FAIL [ 111.323s] gix-submodule::submodule file::is_active_platform::submodules_with_active_config_are_considered_active_or_inactive
+        FAIL [  63.353s] gix-submodule::submodule file::is_active_platform::submodules_with_active_config_override_pathspecs
+        FAIL [  87.804s] gix-submodule::submodule file::is_active_platform::without_any_additional_settings_all_are_inactive_if_they_have_a_url
+        FAIL [ 123.721s] gix-submodule::submodule file::is_active_platform::without_submodule_in_index
+        FAIL [   5.080s] gix-worktree-state-tests::worktree state::checkout::accidental_writes_through_symlinks_are_prevented_if_overwriting_is_forbidden
+        FAIL [   5.659s] gix-worktree-state-tests::worktree state::checkout::no_case_related_collisions_on_case_sensitive_filesystem
+        FAIL [   0.214s] gix-worktree-state-tests::worktree state::checkout::writes_through_symlinks_are_prevented_even_if_overwriting_is_allowed
+        FAIL [  15.719s] gix-worktree-tests::integrate worktree::stack::attributes::baseline
+        FAIL [   7.430s] gix-worktree-tests::integrate worktree::stack::ignore::check_against_baseline
+        FAIL [   0.691s] gix::gix revision::spec::from_bytes::regex::find_youngest_matching_commit::regex_matches
+        FAIL [   0.673s] gix::gix revision::spec::from_bytes::regex::with_known_revision::contained_string_matches_in_unanchored_regex_and_disambiguates_automatically
+error: test run failed

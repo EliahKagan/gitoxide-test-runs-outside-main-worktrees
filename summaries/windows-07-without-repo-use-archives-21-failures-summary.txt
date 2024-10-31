@@ -1,0 +1,23 @@
+     Summary [ 910.640s] 2548 tests run: 2527 passed (29 slow, 2 leaky), 21 failed, 11 skipped
+        FAIL [   3.093s] gix-attributes::attributes search::baseline
+        FAIL [   4.882s] gix-discover::discover upwards::ceiling_dirs::ceiling_dirs_are_not_processed_differently_than_the_git_dir_candidate
+        FAIL [   0.027s] gix-discover::discover upwards::from_dir_with_dot_dot
+        FAIL [   2.559s] gix-ignore::ignore search::baseline_from_git_dir
+        FAIL [   0.577s] gix-url::baseline run
+        FAIL [   0.330s] gix-worktree-state-tests::worktree state::checkout::accidental_writes_through_symlinks_are_prevented_if_overwriting_is_forbidden
+        FAIL [   0.320s] gix-worktree-state-tests::worktree state::checkout::allow_or_disallow_symlinks
+        FAIL [   0.309s] gix-worktree-state-tests::worktree state::checkout::collisions_are_detected_on_a_case_insensitive_filesystem_even_with_delayed_filters
+        FAIL [   0.356s] gix-worktree-state-tests::worktree state::checkout::dangling_symlinks_can_be_created
+        FAIL [   0.186s] gix-worktree-state-tests::worktree state::checkout::delayed_driver_process
+        FAIL [   0.153s] gix-worktree-state-tests::worktree state::checkout::keep_going_collects_results
+        FAIL [   0.160s] gix-worktree-state-tests::worktree state::checkout::no_case_related_collisions_on_case_sensitive_filesystem
+        FAIL [   0.165s] gix-worktree-state-tests::worktree state::checkout::safety_checks_dotdot_trees
+        FAIL [   0.155s] gix-worktree-state-tests::worktree state::checkout::safety_checks_dotgit_ntfs_stream
+        FAIL [   0.159s] gix-worktree-state-tests::worktree state::checkout::safety_checks_dotgit_trees
+        FAIL [   0.159s] gix-worktree-state-tests::worktree state::checkout::submodules_are_instantiated_as_directories
+        FAIL [   0.173s] gix-worktree-state-tests::worktree state::checkout::symlinks_become_files_if_disabled
+        FAIL [   0.151s] gix-worktree-state-tests::worktree state::checkout::symlinks_to_directories_are_usable
+        FAIL [   0.162s] gix-worktree-state-tests::worktree state::checkout::writes_through_symlinks_are_prevented_even_if_overwriting_is_allowed
+        FAIL [   0.120s] gix-worktree-tests::integrate worktree::stack::attributes::baseline
+        FAIL [   4.664s] gix-worktree-tests::integrate worktree::stack::ignore::check_against_baseline
+error: test run failed
